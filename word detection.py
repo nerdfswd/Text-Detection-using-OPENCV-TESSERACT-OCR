@@ -10,7 +10,7 @@ pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files (x86)\\Tesseract-OCR\
 ############################################################
 
 
-img = cv2.imread('Resources/o.PNG')
+img = cv2.imread('Resources/Test image.PNG')
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 # [   0          1           2           3           4          5         6       7       8        9        10       11 ]
