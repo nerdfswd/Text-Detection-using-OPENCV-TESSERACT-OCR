@@ -7,7 +7,7 @@ pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files (x86)\\Tesseract-OCR\
                 # Digits detection
 
 ############################################################
-img = cv2.imread('Resources/o.PNG')
+img = cv2.imread('Resources/Test image.PNG')
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 
 hImg, wImg, _ = img.shape
