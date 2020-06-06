@@ -5,7 +5,7 @@ pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files (x86)\\Tesseract-OCR\
 
 ################################################################################################################
 #Here Output will be just rectangular boxes placing all around the characters, digits in the text image
-
+#character detection
 ################################################################################################################
 
 img = cv2.imread('Resources/o.PNG')
